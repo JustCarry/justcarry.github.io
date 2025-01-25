@@ -14,6 +14,8 @@ class GameEngine {
         this.mouse = null;
         this.wheel = null;
         this.keys = {};
+        
+        this.state = 0;
 
         // Options and the Details
         this.options = options || {
